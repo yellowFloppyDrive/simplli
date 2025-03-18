@@ -7,6 +7,10 @@
   "module": "dist/simplli.es.js",
   "files": ["dist", "src"],
   "type": "module",
+  "repository": "https://github.com/yellowFloppyDrive/simplli",
+  "keywords": ["util", "components", "procedural", "vanilla", "when-then"],
+  "author": "yellowFloppyDrive",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
