@@ -6,10 +6,21 @@
   "main": "dist/simplli.umd.js",
   "module": "dist/simplli.es.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
-  "repository": "https://github.com/yellowFloppyDrive/simplli",
-  "keywords": ["util", "components", "procedural", "vanilla", "when-then"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellowFloppyDrive/simplli.git"
+  },
+  "keywords": [
+    "util",
+    "components",
+    "procedural",
+    "vanilla",
+    "when-then"
+  ],
   "author": "yellowFloppyDrive",
   "license": "MIT",
   "scripts": {
