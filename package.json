@@ -1,0 +1,19 @@
+{
+  "name": "simplli",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Simplli the best tools for Vanilla TS development",
+  "main": "dist/simplli.umd.js",
+  "module": "dist/simplli.es.js",
+  "files": ["dist", "src"],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
