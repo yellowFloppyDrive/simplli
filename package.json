@@ -1,6 +1,5 @@
 {
   "name": "simplli",
-  "private": true,
   "version": "0.0.0",
   "description": "Simplli the best tools for Vanilla TS development",
   "main": "dist/simplli.umd.js",
@@ -25,7 +24,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && tsc"
+    "build": "tsc && vite build && tsc",
+    "publish": "npm run build && npm publish"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
