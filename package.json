@@ -1,6 +1,6 @@
 {
   "name": "simplli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simplli the best tools for Vanilla TS development",
   "main": "dist/simplli.umd.js",
   "module": "dist/simplli.es.js",
