@@ -1,6 +1,6 @@
 {
   "name": "simplli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simplli the best tools for Vanilla TS development",
   "main": "dist/simplli.umd.js",
   "module": "dist/simplli.es.js",
@@ -25,7 +25,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && tsc",
-    "publish": "npm run build && npm publish"
+    "prepublishOnly": "npm run build",
+    "publish-major": "npm version major && npm run publish",
+    "publish-minor": "npm version minor && npm run publish",
+    "publish-path": "npm version patch && npm run publish"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
