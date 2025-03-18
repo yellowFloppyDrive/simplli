@@ -5,7 +5,8 @@
   "description": "Simplli the best tools for Vanilla TS development",
   "main": "dist/simplli.umd.js",
   "module": "dist/simplli.es.js",
-  "files": ["dist", "src"],
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "type": "module",
   "repository": "https://github.com/yellowFloppyDrive/simplli",
   "keywords": ["util", "components", "procedural", "vanilla", "when-then"],
@@ -13,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build && tsc"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
