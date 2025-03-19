@@ -11,6 +11,7 @@ export * from "./element";
 export * from "./h1";
 export * from "./h2";
 export * from "./img";
+export * from "./pre";
 export * from "./span";
 export * from "./style";
 export * from "./uuid";
