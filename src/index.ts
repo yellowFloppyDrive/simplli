@@ -11,9 +11,11 @@ export * from "./element";
 export * from "./h1";
 export * from "./h2";
 export * from "./img";
+export * from "./listen";
+export * from "./listenChild"
+export * from "./On";
 export * from "./pre";
 export * from "./span";
 export * from "./style";
 export * from "./uuid";
-export * from "./On.ts";
-export * from "./Component.ts";
+export * from "./Component";
