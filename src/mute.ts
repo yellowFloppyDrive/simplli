@@ -1,3 +1,8 @@
-export function mute<K extends keyof ElementEventMap>(node: Node, type: K, listener: (ev: ElementEventMap[K]) => any): void {
-    node.removeEventListener(type, listener);
+import {On} from "./On.ts";
+
+export function mute(node: Node, on: On): void {
+    for (const event in on) {
+        // @ts-ignore
+        node.removeEventListener(event, on[event]);
+    }
 }
