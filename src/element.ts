@@ -2,7 +2,7 @@ import {Attributes} from "./Attributes.ts";
 import {Children} from "./Children.ts";
 
 export function element<T extends keyof HTMLElementTagNameMap, K extends keyof HTMLElementEventMap>(
-    tagName: T, attr: Attributes, nodes: Children, ...on: [K, EventListenerOrEventListenerObject][]
+    tagName: T, attr: Attributes, nodes: Children, ...on: [K, (ev: HTMLElementEventMap[K]) => any][]
 ): HTMLElementTagNameMap[T] {
     const x = document.createElement(tagName);
 
@@ -17,7 +17,7 @@ export function element<T extends keyof HTMLElementTagNameMap, K extends keyof H
     }
 
     for (const [event, listener] of on) {
-        x.addEventListener(event, listener);
+        x.addEventListener(event, listener as EventListenerOrEventListenerObject);
     }
 
     return x;
