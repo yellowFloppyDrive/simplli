@@ -3,7 +3,7 @@ import {Children} from "./Children.ts";
 import {On} from "./On.ts";
 
 export function element<T extends keyof HTMLElementTagNameMap>(
-    tagName: T, attr: Attributes, nodes: Children, on: On
+    tagName: T, attr: Attributes, nodes: Children, on?: On
 ): HTMLElementTagNameMap[T] {
     const x = document.createElement(tagName);
 

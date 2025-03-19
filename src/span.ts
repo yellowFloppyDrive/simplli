@@ -1,8 +1,6 @@
 import {element} from "./element.ts";
-import {Children} from "./Children.ts";
-import {Attributes} from "./Attributes.ts";
-import {On} from "./On.ts";
+import {Component} from "./Component.ts";
 
-export function span(attr: Attributes, nodes: Children, on: On): HTMLSpanElement {
+export const span: Component<HTMLSpanElement> = (attr, nodes, on) => {
     return element("span", attr, nodes, on);
 }

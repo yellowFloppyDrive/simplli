@@ -1,7 +1,6 @@
 import {element} from "./element.ts";
-import {Attributes} from "./Attributes.ts";
-import {On} from "./On.ts";
+import {Component} from "./Component.ts";
 
-export function img(attr: Attributes, on: On): HTMLHeadingElement {
-    return element("img", attr, [], on);
+export const img: Component<HTMLImageElement> = (attr, nodes, on) => {
+    return element("img", attr, nodes, on);
 }

@@ -16,3 +16,4 @@ export * from "./span";
 export * from "./style";
 export * from "./uuid";
 export * from "./On.ts";
+export * from "./Component.ts";

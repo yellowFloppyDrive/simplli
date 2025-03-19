@@ -1,8 +1,6 @@
 import {element} from "./element.ts";
-import {Children} from "./Children.ts";
-import {Attributes} from "./Attributes.ts";
-import {On} from "./On.ts";
+import {Component} from "./Component.ts";
 
-export function pre(attr: Attributes, nodes: Children, on: On): HTMLPreElement {
+export const pre: Component<HTMLPreElement> = (attr, nodes, on) => {
     return element("pre", attr, nodes, on);
 }
