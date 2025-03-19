@@ -14,6 +14,7 @@ export * from "./h2";
 export * from "./img";
 export * from "./listen";
 export * from "./listenChild";
+export * from "./mute";
 export * from "./nofix";
 export * from "./On";
 export * from "./pre";
