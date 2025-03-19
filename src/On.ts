@@ -1,3 +1,3 @@
 export type On = {
-    [key in (keyof HTMLElementEventMap)]: undefined | ((ev: HTMLElementEventMap[key]) => any)
+    [key in (keyof HTMLElementEventMap)]?: ((ev: HTMLElementEventMap[key]) => any)
 };
