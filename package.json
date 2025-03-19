@@ -6,7 +6,8 @@
   "module": "dist/simplli.es.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "type": "module",
   "repository": {
