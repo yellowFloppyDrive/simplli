@@ -8,11 +8,13 @@ export * from "./Children";
 export * from "./css";
 export * from "./div";
 export * from "./element";
+export * from "./getChild";
 export * from "./h1";
 export * from "./h2";
 export * from "./img";
 export * from "./listen";
-export * from "./listenChild"
+export * from "./listenChild";
+export * from "./nofix";
 export * from "./On";
 export * from "./pre";
 export * from "./span";
