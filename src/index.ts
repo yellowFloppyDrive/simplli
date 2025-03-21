@@ -18,6 +18,7 @@ export * from "./listenChild";
 export * from "./mute";
 export * from "./nofix";
 export * from "./On";
+export * from "./path";
 export * from "./pre";
 export * from "./span";
 export * from "./style";
