@@ -22,4 +22,5 @@ export * from "./path";
 export * from "./pre";
 export * from "./span";
 export * from "./style";
+export * from "./svg";
 export * from "./uuid";
