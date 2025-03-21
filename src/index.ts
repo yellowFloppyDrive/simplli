@@ -21,6 +21,7 @@ export * from "./nofix";
 export * from "./On";
 export * from "./path";
 export * from "./pre";
+export * from "./removeClass";
 export * from "./setId";
 export * from "./span";
 export * from "./style";
