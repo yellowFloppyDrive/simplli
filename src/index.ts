@@ -1,3 +1,4 @@
+export * from "./addClass";
 export * from "./appendToBody";
 export * from "./appendToElement";
 export * from "./appendToHead";
