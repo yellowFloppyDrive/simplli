@@ -14,6 +14,7 @@ export * from "./dialog";
 export * from "./disableDragging";
 export * from "./div";
 export * from "./enableDragging";
+export * from "./form";
 export * from "./getChild";
 export * from "./getSize";
 export * from "./h1";
