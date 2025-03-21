@@ -6,7 +6,7 @@ import {appendChildren} from "./appendChildren.ts";
 import {setEventListeners} from "./setEventListeners.ts";
 
 export function elementSvg<T extends keyof SVGElementTagNameMap>(
-    tagName: T, attr: Attributes, children?: Children, on?: On
+    tagName: T, attr?: Attributes, children?: Children, on?: On
 ): SVGElementTagNameMap[T] {
     const x = window.document.createElementNS('http://www.w3.org/2000/svg', tagName)
 

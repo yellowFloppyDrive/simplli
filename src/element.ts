@@ -6,7 +6,7 @@ import {appendChildren} from "./appendChildren.ts";
 import {setEventListeners} from "./setEventListeners.ts";
 
 export function element<T extends keyof HTMLElementTagNameMap>(
-    tagName: T, attr: Attributes, children?: Children, on?: On
+    tagName: T, attr?: Attributes, children?: Children, on?: On
 ): HTMLElementTagNameMap[T] {
     const x = document.createElement(tagName);
 
