@@ -30,6 +30,7 @@ export * from "./listenChild";
 export * from "./mute";
 export * from "./nofix";
 export * from "./On";
+export * from "./p";
 export * from "./path";
 export * from "./pre";
 export * from "./removeClass";
