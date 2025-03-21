@@ -1,6 +1,8 @@
 import {element} from "./element.ts";
-import {Component} from "./Component.ts";
+import {Attributes} from "./Attributes.ts";
+import {Children} from "./Children.ts";
+import {On} from "./On.ts";
 
-export const button: Component<HTMLButtonElement> = (attr, nodes, on) => {
+export function button(attr: Attributes, nodes?: Children, on?: On): HTMLButtonElement {
     return element("button", attr, nodes, on);
 }

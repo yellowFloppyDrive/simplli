@@ -12,6 +12,8 @@ export * from "./getChild";
 export * from "./h1";
 export * from "./h2";
 export * from "./img";
+export * from "./input";
+export * from "./label";
 export * from "./listen";
 export * from "./listenChild";
 export * from "./mute";

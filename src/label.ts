@@ -3,6 +3,6 @@ import {Attributes} from "./Attributes.ts";
 import {Children} from "./Children.ts";
 import {On} from "./On.ts";
 
-export function div(attr: Attributes, nodes?: Children, on?: On): HTMLDivElement {
-    return element("div", attr, nodes, on);
+export function label(attr: Attributes, nodes?: Children, on?: On): HTMLLabelElement {
+    return element("label", attr, nodes, on);
 }
