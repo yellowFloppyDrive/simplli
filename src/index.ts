@@ -1,4 +1,5 @@
 export * from "./addClass";
+export * from "./addData";
 export * from "./appendToBody";
 export * from "./appendToElement";
 export * from "./appendToHead";
@@ -22,6 +23,7 @@ export * from "./On";
 export * from "./path";
 export * from "./pre";
 export * from "./removeClass";
+export * from "./removeData";
 export * from "./setId";
 export * from "./span";
 export * from "./style";
