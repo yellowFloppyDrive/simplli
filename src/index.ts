@@ -25,6 +25,7 @@ export * from "./innerText";
 export * from "./input";
 export * from "./isElementInDom";
 export * from "./label";
+export * from "./link";
 export * from "./listen";
 export * from "./listenChild";
 export * from "./mute";
