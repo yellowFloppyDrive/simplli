@@ -32,6 +32,7 @@ export * from "./isElementInDom";
 export * from "./label";
 export * from "./link";
 export * from "./listen";
+export * from "./listenWindow";
 export * from "./listenChild";
 export * from "./mute";
 export * from "./nofix";
