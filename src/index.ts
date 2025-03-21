@@ -45,3 +45,4 @@ export * from "./style";
 export * from "./svg";
 export * from "./throttle";
 export * from "./uuid";
+export * from "./uuidWithPrefix.ts";
