@@ -9,6 +9,7 @@ export * from "./Child";
 export * from "./Children";
 export * from "./clearStyle";
 export * from "./css";
+export * from "./dialog";
 export * from "./disableDragging";
 export * from "./div";
 export * from "./enableDragging";
