@@ -12,7 +12,7 @@ export function enableErrorFor(element: Element, errorMessage?: string): void {
     addClass(element, "invalid");
 
     if (errorMessage) {
-        const error = div({"data-errorFor": id}, errorMessage);
+        const error = div({"data-errorfor": id}, errorMessage);
         element.after(error);
     }
 }

@@ -11,7 +11,7 @@ export function disableErrorFor(element: Element): void {
 
     removeClass(element, "invalid");
 
-    window.document.querySelectorAll(`[data-errorFor="${id}"]`).forEach(error => {
+    window.document.querySelectorAll(`[data-errorfor="${id}"]`).forEach(error => {
         removeElement(error);
     });
 }
