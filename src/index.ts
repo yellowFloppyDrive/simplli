@@ -25,6 +25,7 @@ export * from "./getChild";
 export * from "./getSize";
 export * from "./h1";
 export * from "./h2";
+export * from "./hr.ts";
 export * from "./img";
 export * from "./innerText";
 export * from "./input";
